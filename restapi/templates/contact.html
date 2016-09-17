@@ -1,0 +1,6 @@
+{% extends "header.html" %}
+{% block content %} 
+    {% for mail in maillist %}
+    <p>{{mail}}</p>
+    {% endfor %}
+{% endblock %} 
